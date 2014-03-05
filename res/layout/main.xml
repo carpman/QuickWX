@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+            android:id="@+id/loadingSpinner"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    <ImageView
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:id="@+id/conditionsIconImageView" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_marginLeft="34dp" android:layout_marginTop="34dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/temperatureTextView"
+            android:textSize="24pt" android:layout_alignTop="@+id/conditionsIconImageView"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>
